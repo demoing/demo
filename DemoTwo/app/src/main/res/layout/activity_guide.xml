@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bawei.demotwo.GuideActivity">
+<ImageView
+    android:id="@+id/yunnifang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:src="@drawable/loading_icon"
+    />
+    <ImageView
+        android:id="@+id/guide_img2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yunnifang"
+        android:padding="40px"
+        android:src="@drawable/ico_loading_company_num"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_img2"
+        android:padding="40px"
+        android:src="@drawable/ico_loading_company_num"
+        />
+
+</RelativeLayout>

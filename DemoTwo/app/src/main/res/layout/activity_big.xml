@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_big"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bawei.demotwo.BigActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/big_back"
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text="专题"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f00"/>
+    <ScrollView
+        android:background="#cccccc"
+        android:id="@+id/special_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/big_title"
+                android:text="asdasd"/>
+            <TextView
+                android:layout_margin="10dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="detail"
+                android:id="@+id/big_detail"/>
+
+            <view.MyGridView
+                android:layout_marginTop="10dp"
+                android:horizontalSpacing="3dp"
+                android:verticalSpacing="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numColumns="2"
+                android:id="@+id/big_gv"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

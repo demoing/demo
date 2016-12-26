@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="bawei.demotwo.SetActivity">
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<ImageView
+    android:id="@+id/set_back"
+    android:layout_margin="10px"
+    android:src="@drawable/back_normal"
+    android:layout_width="20px"
+    android:layout_height="20px"/>
+    <TextView
+        android:id="@+id/set_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:textSize="18dp"
+      android:gravity="center_horizontal"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="购物须知"
+            android:padding="5px"
+            />
+        <TextView
+            android:gravity="right"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="购物须知"
+            android:padding="5px"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/huancun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="清除缓存"
+            android:padding="5px"
+            />
+        <TextView
+            android:id="@+id/set_cache"
+            android:gravity="right"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="已缓存0M"
+            android:padding="5px"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/erweima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="关于我们"
+            android:padding="5px"
+            />
+        <TextView
+            android:gravity="right"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="二维码"
+            android:padding="5px"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

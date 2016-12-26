@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/sdk_camp_pop_center_press"
+    android:drawableRight="@drawable/icon_search_home"
+    android:textStyle="bold"
+    />
+    <include layout="@layout/line"></include>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleView_left"
+        ></android.support.v7.widget.RecyclerView>
+        <android.support.v7.widget.RecyclerView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:background="#0dec32"
+            android:layout_height="match_parent"
+            android:id="@+id/recycleView_right"
+            ></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="100dp"
+                android:id="@+id/hold3_view"
+              android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/holder3_img"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="100dp"
+                android:padding="3dp"
+                android:layout_height="100dp"/>
+    <TextView
+        android:textColor="#252222"
+        android:layout_below="@+id/holder3_img"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:padding="10dp"
+        android:id="@+id/holder3_tv3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="123"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/holder3_tv3"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/holder3_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="123"
+            android:textSize="15dp"
+            android:textColor="#f00"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/holder3_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="123"
+            android:textSize="10dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

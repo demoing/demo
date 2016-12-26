@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+<android.support.v4.view.ViewPager
+    android:id="@+id/type0_vp"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+</android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/type0_ll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignBottom="@id/type0_vp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"></LinearLayout>
+</RelativeLayout>
